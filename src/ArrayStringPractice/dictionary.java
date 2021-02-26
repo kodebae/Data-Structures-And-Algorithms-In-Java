@@ -1,3 +1,4 @@
+package ArrayStringPractice;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -16,5 +17,18 @@ public class dictionary {
         englishToGermanDictionary.put("Could you take a photo of me?", "Konnten Sie ein Foto von mir machen?");
         englishToGermanDictionary.put("My name is ...", "Mine Name ist...");
         englishToGermanDictionary.put("Nice to meet you.", "Angenehm.");
+        // Retrieve the values by acessing the keys
+        System.out.println(englishToGermanDictionary.get("I'd like to practice German.")); // using the keys to access the German translation
+        System.out.println(englishToGermanDictionary.get("Could you repeat that?"));
+        System.out.println(englishToGermanDictionary.get("Do you speak English?"));
+        System.out.println(englishToGermanDictionary.get("Where is the bus stop?"));
+        System.out.println(englishToGermanDictionary.get("How much is this?"));
+        System.out.println(englishToGermanDictionary.get("Can I try this on?"));
+        System.out.println(englishToGermanDictionary.get("Could you take a photo of me?"));
+        System.out.println(englishToGermanDictionary.get("My name is ..."));
+        System.out.println(englishToGermanDictionary.get("Nice to meet you."));
+        System.out.println(englishToGermanDictionary.keySet()); // will print out  all of the keys
+        System.out.println(englishToGermanDictionary.values()); // will print out all values
+
     }
 }
