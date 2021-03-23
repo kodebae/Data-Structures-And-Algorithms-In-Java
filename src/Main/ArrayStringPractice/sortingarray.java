@@ -1,3 +1,4 @@
+package ArrayStringPractice;
 import java.util.Scanner;
 
 // This program sorts arrays and collects user input via the Scanner method. Arrays can also be sorted with the array.sort method.
